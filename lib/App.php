@@ -16,7 +16,8 @@ class App {
 
 	
 	public function  start(){
-		
+		$xl=new ExelParser;
+		$xl->parse('../lib/files/file.xls');
 	}
 	
 }
